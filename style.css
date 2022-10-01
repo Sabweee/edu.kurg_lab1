@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.reset{
+    padding: 10px;
+    margin: 20px 0 0 20px;
+}
+.shell{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    width: 50%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    width: 400px;
+    height: auto;
+}
+.button{
+    padding: 5px;
+}
+.answer_history{
+    margin-top: 20px;
+    padding: 10px;
+}
+.hidden{
+    display:none !important;
+}
+.link{
+    margin-top: 20px;
+}
+
+.answer_history {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.history__answer {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.info-block p {
+    text-align: left;
+}
